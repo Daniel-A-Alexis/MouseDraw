@@ -13,12 +13,11 @@ int main()
 
   SDL_Window* win = SDL_CreateWindow("Dans window", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, SDL_WINDOW_SHOWN);
 
-  SDL_Renderer* renderer = SDL_CreateRenderer(win, -1, 0);
-  
+  SDL_Renderer* renderer = SDL_CreateRenderer(win, -1, 0);  
   SDL_Rect rect;
-
   Uint64 last = SDL_GetPerformanceCounter();
-      
+
+  int test = 1;
   while(isRunning)
     {
       
